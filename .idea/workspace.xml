@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52430f1f-9e0c-40d1-8811-db346c13aa2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api-apollo-mobile/src/main/java/com/skydragon/apiapollomobile/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-apollo-mobile/src/main/java/com/skydragon/apiapollomobile/controller/VerificationCodeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-apollo-mobile/src/main/java/com/skydragon/apiapollomobile/service/SmsRestTemplateService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-apollo-mobile/src/main/java/com/skydragon/apiapollomobile/service/VerificationCodeRestTemplateService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-apollo-mobile/src/main/java/com/skydragon/apiapollomobile/service/VerificationCodeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-apollo-mobile/src/main/java/com/skydragon/apiapollomobile/service/impl/SmsRestTemplateServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-apollo-mobile/src/main/java/com/skydragon/apiapollomobile/service/impl/VerificationCodeRestTemplateServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/skydragon/common/constant/CommonStatusEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/skydragon/common/dto/ResponseResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/skydragon/common/dto/serviceverificationcode/request/VerifyVerificationCodeRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/skydragon/common/dto/serviceverificationcode/response/GenerateVerificationCodeResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/skydragon/common/util/JwtInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/skydragon/common/util/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/skydragon/common/util/RedisKeyUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-verification-code/src/main/java/com/skydragon/serviceverificationcode/controller/VerificationCodeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-verification-code/src/main/java/com/skydragon/serviceverificationcode/service/VerificationCodeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-verification-code/src/main/java/com/skydragon/serviceverificationcode/service/impl/VerificationCodeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka/src/main/java/com/skydragon/cloudeureka/CloudEurekaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka/src/main/java/com/skydragon/cloudeureka/CloudEurekaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdoa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/apollo.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +39,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/api-apollo-mobile" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.41379312" />
@@ -153,12 +128,20 @@
       <option name="project" value="LOCAL" />
       <updated>1615594105744</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add sms service and verificationCode service">
+      <created>1616571662931</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616571662931</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="micro service project initiate" />
-    <option name="LAST_COMMIT_MESSAGE" value="micro service project initiate" />
+    <MESSAGE value="add sms service and verificationCode service" />
+    <option name="LAST_COMMIT_MESSAGE" value="add sms service and verificationCode service" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1595" y="0" key="#Project_Structure" timestamp="1615875250763">
@@ -175,14 +158,15 @@
     </state>
     <state x="2131" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1616557545307" />
     <state x="544" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1616495155273" />
-    <state x="310" y="0" key="CommitChangelistDialog2" timestamp="1615594102342">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="310" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1615594102342" />
-    <state x="2017" y="170" key="FileChooserDialogImpl" timestamp="1616487433045">
+    <state x="1802" y="0" key="CommitChangelistDialog2" timestamp="1616571656788">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="2017" y="170" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1616487433045" />
+    <state x="1802" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1616571656788" />
+    <state x="310" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1615594102342" />
+    <state x="2017" y="170" key="FileChooserDialogImpl" timestamp="1616572153617">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2017" y="170" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1616572153616" />
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1615990856747" />
     <state width="1877" height="239" key="GridCell.Tab.0.bottom" timestamp="1616560510063">
       <screen x="1366" y="0" width="1920" height="1040" />
@@ -224,27 +208,29 @@
     </state>
     <state width="1877" height="309" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1616047226012" />
     <state width="1323" height="34" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1616165767279" />
-    <state x="1855" y="177" key="NewModule_or_Project.wizard" timestamp="1616487435308">
+    <state x="1855" y="177" key="NewModule_or_Project.wizard" timestamp="1616572155476">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="1855" y="177" key="NewModule_or_Project.wizard/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1616487435308" />
+    <state x="1855" y="177" key="NewModule_or_Project.wizard/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1616572155476" />
     <state x="348" y="124" key="NewModule_or_Project.wizard/0.0.1366.728@0.0.1366.728" timestamp="1615990858930" />
     <state x="1625" y="13" key="SettingsEditor" timestamp="1616397306847">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="1625" y="13" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1616397306847" />
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1616166049643" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1615637756258">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1753" y="139" key="Vcs.Push.Dialog.v2" timestamp="1616571691280">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
+    <state x="1753" y="139" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1616571691280" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1615637756258" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1615638919248">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1615638919248" />
-    <state x="483" y="265" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1615637712591">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="2045" y="379" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1616571599578">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
+    <state x="2045" y="379" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1616571599578" />
     <state x="483" y="265" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728@0.0.1366.728" timestamp="1615637712591" />
     <state x="425" y="50" key="new project wizard" timestamp="1615990637138">
       <screen x="0" y="0" width="1366" height="728" />
