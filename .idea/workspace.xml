@@ -1,11 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52430f1f-9e0c-40d1-8811-db346c13aa2c" name="Default Changelist" comment="hh" />
+    <list default="true" id="52430f1f-9e0c-40d1-8811-db346c13aa2c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/api-apollo-mobile/src/main/java/com/skydragon/apiapollomobile/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-apollo-mobile/src/main/java/com/skydragon/apiapollomobile/controller/VerificationCodeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-apollo-mobile/src/main/java/com/skydragon/apiapollomobile/service/SmsRestTemplateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-apollo-mobile/src/main/java/com/skydragon/apiapollomobile/service/VerificationCodeRestTemplateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-apollo-mobile/src/main/java/com/skydragon/apiapollomobile/service/VerificationCodeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-apollo-mobile/src/main/java/com/skydragon/apiapollomobile/service/impl/SmsRestTemplateServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-apollo-mobile/src/main/java/com/skydragon/apiapollomobile/service/impl/VerificationCodeRestTemplateServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/skydragon/common/constant/CommonStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/skydragon/common/dto/ResponseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/skydragon/common/dto/serviceverificationcode/request/VerifyVerificationCodeRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/skydragon/common/dto/serviceverificationcode/response/GenerateVerificationCodeResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/skydragon/common/util/JwtInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/skydragon/common/util/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/skydragon/common/util/RedisKeyUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-verification-code/src/main/java/com/skydragon/serviceverificationcode/controller/VerificationCodeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-verification-code/src/main/java/com/skydragon/serviceverificationcode/service/VerificationCodeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-verification-code/src/main/java/com/skydragon/serviceverificationcode/service/impl/VerificationCodeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka/src/main/java/com/skydragon/cloudeureka/CloudEurekaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka/src/main/java/com/skydragon/cloudeureka/CloudEurekaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdoa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/apollo.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,14 +64,76 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-eureka" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.41379312" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
+  </component>
+  <component name="RunManager" selected="Application.ServiceSmsApplication">
+    <configuration name="CloudEurekaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.skydragon.cloudeureka.CloudEurekaApplication" />
+      <module name="cloud-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.skydragon.cloudeureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommonApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.skydragon.common.CommonApplication" />
+      <module name="common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.skydragon.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceSmsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.skydragon.servicesms.ServiceSmsApplication" />
+      <module name="service-sms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.skydragon.servicesms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceVerificationCodeApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.skydragon.serviceverificationcode.ServiceVerificationCodeApplication" />
+      <module name="service-verification-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.skydragon.serviceverificationcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ServiceSmsApplication" />
+        <item itemvalue="Application.ServiceVerificationCodeApplication" />
+        <item itemvalue="Application.CloudEurekaApplication" />
+        <item itemvalue="Application.CommonApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -48,28 +146,136 @@
       <option name="presentableId" value="Default" />
       <updated>1615571851938</updated>
     </task>
+    <task id="LOCAL-00001" summary="micro service project initiate">
+      <created>1615594105744</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615594105744</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="micro service project initiate" />
+    <option name="LAST_COMMIT_MESSAGE" value="micro service project initiate" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="163" y="0" key="#Project_Structure" timestamp="1615572700536">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1595" y="0" key="#Project_Structure" timestamp="1615875250763">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
+    <state x="1595" y="0" key="#Project_Structure/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1615875250763" />
     <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1615572700536" />
-    <state x="310" y="0" key="CommitChangelistDialog2" timestamp="1615593218925">
+    <state x="2012" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616489379434">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2012" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1616489379434" />
+    <state x="2131" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1616557545307">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2131" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1616557545307" />
+    <state x="544" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1616495155273" />
+    <state x="310" y="0" key="CommitChangelistDialog2" timestamp="1615594102342">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="310" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1615593218925" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1615572532271">
+    <state x="310" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1615594102342" />
+    <state x="2017" y="170" key="FileChooserDialogImpl" timestamp="1616487433045">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2017" y="170" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1616487433045" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1615990856747" />
+    <state width="1877" height="239" key="GridCell.Tab.0.bottom" timestamp="1616560510063">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="239" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1616560510063" />
+    <state width="1323" height="55" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616494717466" />
+    <state width="1877" height="239" key="GridCell.Tab.0.center" timestamp="1616560510063">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="239" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1616560510063" />
+    <state width="1323" height="55" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1616494717466" />
+    <state width="1877" height="239" key="GridCell.Tab.0.left" timestamp="1616560510063">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="239" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1616560510063" />
+    <state width="1323" height="55" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1616494717466" />
+    <state width="1877" height="239" key="GridCell.Tab.0.right" timestamp="1616560510063">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="239" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1616560510063" />
+    <state width="1323" height="55" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1616494717466" />
+    <state width="1323" height="34" key="GridCell.Tab.1.bottom" timestamp="1616165767279">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1615572532271" />
-    <state x="348" y="124" key="NewModule_or_Project.wizard" timestamp="1615572534411">
+    <state width="1877" height="309" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1616047226012" />
+    <state width="1323" height="34" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616165767279" />
+    <state width="1323" height="34" key="GridCell.Tab.1.center" timestamp="1616165767279">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="348" y="124" key="NewModule_or_Project.wizard/0.0.1366.728@0.0.1366.728" timestamp="1615572534411" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1615571952076">
+    <state width="1877" height="309" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1616047226012" />
+    <state width="1323" height="34" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1616165767279" />
+    <state width="1323" height="34" key="GridCell.Tab.1.left" timestamp="1616165767279">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1615571952076" />
+    <state width="1877" height="309" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1616047226012" />
+    <state width="1323" height="34" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1616165767279" />
+    <state width="1323" height="34" key="GridCell.Tab.1.right" timestamp="1616165767279">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1877" height="309" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1616047226012" />
+    <state width="1323" height="34" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1616165767279" />
+    <state x="1855" y="177" key="NewModule_or_Project.wizard" timestamp="1616487435308">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1855" y="177" key="NewModule_or_Project.wizard/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1616487435308" />
+    <state x="348" y="124" key="NewModule_or_Project.wizard/0.0.1366.728@0.0.1366.728" timestamp="1615990858930" />
+    <state x="1625" y="13" key="SettingsEditor" timestamp="1616397306847">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1625" y="13" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1616397306847" />
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1616166049643" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1615637756258">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1615637756258" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1615638919248">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1615638919248" />
+    <state x="483" y="265" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1615637712591">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="483" y="265" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728@0.0.1366.728" timestamp="1615637712591" />
+    <state x="425" y="50" key="new project wizard" timestamp="1615990637138">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="1963" y="181" key="new project wizard/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1615877338835" />
+    <state x="425" y="50" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1615990637138" />
+    <state x="1989" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1616557816504">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1989" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1616557816504" />
+    <state x="443" y="158" width="672" height="475" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1616495085578" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/src/main/java/com/skydragon/common/CommonApplication.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/src/main/java/com/skydragon/common/CommonApplication.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="str1.hashCode()" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
