@@ -2,7 +2,7 @@ package com.skydragon.apiapollomobile.service.impl;
 
 import com.skydragon.apiapollomobile.service.VerificationCodeRestTemplateService;
 import com.skydragon.common.dto.ResponseResult;
-import com.skydragon.common.dto.serviceverificationcode.request.VerifyVerificationCodeRequest;
+import com.skydragon.common.dto.serviceverificationcode.request.VerifyCodeRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
@@ -49,7 +49,7 @@ public class VerificationCodeRestTemplateServiceImpl implements VerificationCode
          map.add("title", "abc");
          */
 
-        VerifyVerificationCodeRequest request = new VerifyVerificationCodeRequest();
+        VerifyCodeRequest request = new VerifyCodeRequest();
         request.setIdentity(identity);
         request.setPhoneNumber(phoneNumber);
         request.setCode(code);

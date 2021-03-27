@@ -1,6 +1,6 @@
 package com.skydragon.common.dto.serviceverificationcode.request;
 
-public class VerifyVerificationCodeRequest {
+public class VerifyCodeRequest {
     private int identity;
 
     public int getIdentity() {

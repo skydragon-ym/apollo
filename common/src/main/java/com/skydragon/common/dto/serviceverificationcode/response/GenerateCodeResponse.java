@@ -1,6 +1,6 @@
 package com.skydragon.common.dto.serviceverificationcode.response;
 
-public class GenerateVerificationCodeResponse {
+public class GenerateCodeResponse {
 
     private String code;
 

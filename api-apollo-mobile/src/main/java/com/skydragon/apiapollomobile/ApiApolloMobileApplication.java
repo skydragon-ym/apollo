@@ -15,7 +15,7 @@ import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
 @RestController
-public class ApiIautoMobileApplication {
+public class ApiApolloMobileApplication {
 
 	@LoadBalanced
 	@Bean
@@ -32,7 +32,7 @@ public class ApiIautoMobileApplication {
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(ApiIautoMobileApplication.class, args);
+		SpringApplication.run(ApiApolloMobileApplication.class, args);
 	}
 
 }

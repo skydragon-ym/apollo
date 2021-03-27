@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/service-sms/pom.xml" />
         <option value="$PROJECT_DIR$/api-iauto-mobile/pom.xml" />
         <option value="$PROJECT_DIR$/api-apollo-mobile/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-gateway/pom.xml" />
       </list>
     </option>
   </component>

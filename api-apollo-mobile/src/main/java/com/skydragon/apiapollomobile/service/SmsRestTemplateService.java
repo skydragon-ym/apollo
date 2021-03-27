@@ -1,4 +1,7 @@
 package com.skydragon.apiapollomobile.service;
 
-public class SmsRestTemplateService {
+import com.skydragon.common.dto.ResponseResult;
+
+public interface SmsRestTemplateService {
+    public ResponseResult sendSms(String phoneNumber , String code);
 }
